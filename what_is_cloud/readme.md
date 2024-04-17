@@ -17,11 +17,11 @@ Combination of private and public cloud services.
 Using services from multiple cloud providers.
 
 ## Types of Cloud Services
-### IaaS
+### IaaS - Infrastructure as a service
 Virtualized computing resources.
-### PaaS
+### PaaS - Platform as a service
 Platform for developing apps.
-### SaaS
+### SaaS - Software as a service
 Software accessible online.
 
 ## What are the advantages and disadvantages of Cloud? (In the context of a business)
