@@ -64,7 +64,7 @@ Moving to the cloud can be cost-effective but varies based on usage and manageme
 * Global presence
 
 ## Which cloud provider do I think might be the best and why?
-I think that AWS is the best due to having such a broad catalog of services on offer. Additionally, they are the most popular so there is the most discussion between users on how to use AWS effectively. To me, AWS is to cloud computing what Python is to programming.
+I think that AWS is the best due to having such a broad catalog of services on offer. Additionally, they are the most popular so there is the most discussion between users on how to use AWS effectively. To me, AWS is to cloud computing what Python is to programming: the community resources are endless.
 ## What sorts of things do you usually need to pay for when using the cloud?
 * Data storage.
 * Computing resources.
