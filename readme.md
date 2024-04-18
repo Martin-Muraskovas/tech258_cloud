@@ -40,7 +40,7 @@
 
 ## Part 2 Deploying nginx on your EC2 instance
 1. After completing the steps in Part 1, you should see a screen similar to the following:<br>
-![img_11.png](img_11.png)
+![img_11.png](img_11.png)<br>
 This is your ubuntu VM running on your EC2 instance.<br>
 2. Enter the following commands to update and install the updates of the necessary ubuntu packages.<br>
    * `sudo apt update -y`<br>
