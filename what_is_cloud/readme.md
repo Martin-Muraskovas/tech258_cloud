@@ -30,6 +30,10 @@ Using services from multiple cloud providers.
 - Users access applications without needing to install them locally.
 - Updates and maintenance handled by the service provider.
 
+<br>
+
+![img_1.png](img_1.png)
+
 ## What are the advantages and disadvantages of Cloud? (In the context of a business)
 ### Advantages
 * Scalability.
