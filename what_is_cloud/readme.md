@@ -32,10 +32,10 @@ Using services from multiple cloud providers.
 
 ## What are the advantages and disadvantages of Cloud? (In the context of a business)
 ### Advantages
-* Scalability
+* Scalability.
 * Cost-effectiveness.
 ### Disadvantages
-* Security risks
+* Security risks.
 * Downtime.
 
 ## OpEx vs CapEx
@@ -51,12 +51,12 @@ Moving to the cloud can be cost-effective but varies based on usage and manageme
 ## Market share of the Cloud - What is the breakdown?
 ![img.png](img.png)
 
-## What are the 3 largest Cloud providers known for?
-* AWS
+## Who are the 3 largest Cloud providers? What are they known for?
+* AWS:
   * Broad service offerings.
-* Azure
+* Azure:
   * Integration with Microsoft products.
-* Google Cloud
+* Google Cloud:
   * Strong in data analytics and AI.
 ### What makes them popular?
 * Reliability
@@ -66,8 +66,8 @@ Moving to the cloud can be cost-effective but varies based on usage and manageme
 ## Which cloud provider do I think might be the best and why?
 I think that AWS is the best due to having such a broad catalog of services on offer. Additionally, they are the most popular so there is the most discussion between users on how to use AWS effectively.
 ## What sorts of things do you usually need to pay for when using the cloud?
-* Data storage
-* Computing resources
+* Data storage.
+* Computing resources.
 * Network usage.
 ## What are the 4 pillars of DevOps? How do they link into the Cloud?
 * Collaboration<br>
