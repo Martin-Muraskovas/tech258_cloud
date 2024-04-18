@@ -17,6 +17,7 @@ Combination of private and public cloud services.
 Using services from multiple cloud providers.
 
 ## Types of Cloud Services
+![img_1.png](img_1.png)
 ### IaaS - Infrastructure as a service
 - Virtualized computing resources.
 - Rent virtual servers, storage, and network infrastructure.
@@ -29,10 +30,10 @@ Using services from multiple cloud providers.
 - Software accessible online through a web browser.
 - Users access applications without needing to install them locally.
 - Updates and maintenance handled by the service provider.
-
 <br>
 
-![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+
 
 ## What are the advantages and disadvantages of Cloud? (In the context of a business)
 ### Advantages
