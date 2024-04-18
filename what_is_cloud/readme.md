@@ -48,7 +48,8 @@ Using services from multiple cloud providers.
 * CapEx (Capital Expenditures): Upfront costs like buying servers.
 
 ### How do they relate to the cloud?
-Cloud services are often OpEx due to recurring payments.
+- Cloud services are often OpEx due to recurring payments.
+- On-prem and private cloud are usually CapEx due to the upfront cost of resources like servers.
 
 ## Is moving to the cloud always cheaper?
 Moving to the cloud can be cost-effective but varies based on usage and management. For example, if servers are left on unnecessarily then extra money will be spent.
