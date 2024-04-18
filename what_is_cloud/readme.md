@@ -37,10 +37,10 @@ Using services from multiple cloud providers.
 
 ## What are the advantages and disadvantages of Cloud? (In the context of a business)
 ### Advantages
-* Scalability.
-* Cost-effectiveness.
+* Scalability. (More resources when you need them, scale back down when you don't need them)
+* Cost-effectiveness. (Pay for what you use)
 ### Disadvantages
-* Security risks.
+* Security risks. (e.g. Data Leaks)
 * Downtime.
 
 ## OpEx vs CapEx
