@@ -1,7 +1,7 @@
 ## What is cloud computing?
 Cloud computing is like renting a computer over the internet. Instead of owning and maintaining your own physical servers or computers, you can use resources (like storage, processing power, or software) provided by a cloud service provider.
 ## How do we know if something is in the cloud?
-If you access services or store data online without needing physical hardware, it's likely in the cloud.
+If you access services or store data online without needing the relevant physical hardware, it's likely in the cloud.
 
 ### What is the difference between on-prem and the cloud?
 * On-premises - Managing and maintaining your own servers locally.
