@@ -18,11 +18,17 @@ Using services from multiple cloud providers.
 
 ## Types of Cloud Services
 ### IaaS - Infrastructure as a service
-Virtualized computing resources.
+- Virtualized computing resources.
+- Rent virtual servers, storage, and network infrastructure.
+- Allows scalability and flexibility in managing resources.
 ### PaaS - Platform as a service
-Platform for developing apps.
+- Platform for developing applications.
+- Provides tools for app development, testing, and deployment.
+- Developers focus on coding without worrying about underlying infrastructure.
 ### SaaS - Software as a service
-Software accessible online.
+- Software accessible online through a web browser.
+- Users access applications without needing to install them locally.
+- Updates and maintenance handled by the service provider.
 
 ## What are the advantages and disadvantages of Cloud? (In the context of a business)
 ### Advantages
