@@ -112,7 +112,53 @@ It shows a snapshot of the current processes running on the system.
 `sudo su`
 - It is used to switch to the root user in the terminal.
 
+## Creating a Bash Script to install and launch nginx:
 
+`nano provision.sh`
+- Opens the nano text editor to create or edit a file named provision.sh.
 
+```
+# Shebang line specifying that the script should be executed using the Bash shell.
+#!/bin/bash 
 
+# update
+sudo apt update -y
 
+# upgrade
+sudo apt upgrade -y
+
+# install nginx
+sudo apt install nginx -y
+
+# restart nginx
+sudo systemctl restart nginx
+
+# enable nginx
+sudo systemctl enable nginx
+```
+
+`./provision.sh`
+- Executes the provision.sh script
+
+`ll`
+- Lists the files and directories in the current directory.
+
+`chmod +x provision.sh`
+- Changes the permissions of the provision.sh script to make it executable.
+
+## Environment Variables
+
+`printenv`
+- Prints the current environment variables.
+
+`MYNAME=martin`
+- Assigns the value "martin" to the environment variable MYNAME.
+
+`echo $MYNAME`
+- Prints the value of the MYNAME environment variable.
+
+`export MYNAME=martin`
+- Exports the MYNAME variable to be accessible to child processes.
+
+`nano .bashrc`
+- Opens the .bashrc file in the nano text editor for editing. The .bashrc file is a script that is executed whenever a new terminal session is started.
