@@ -1,0 +1,43 @@
+ 129  nano provision.sh
+
+```#!/bin/bash
+
+# update
+sudo apt update -y
+
+# upgrade
+sudo apt upgrade -y
+
+# install nginx
+sudo apt install nginx -y
+
+# restart nginx
+sudo systemctl restart nginx
+
+# enable nginx
+sudo systemctl enable nginx```
+
+
+
+
+  130  ./provision.sh
+
+
+  131  ll
+  132  chmod +x provision.sh
+
+
+
+
+  143  printenv
+
+  144  MYNAME=martin
+  145  echo $MYNAME
+  146  export MYNAME=martin
+  147  printenv
+
+  148  nano .bashrc
+
+
+
+

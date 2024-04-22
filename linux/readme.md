@@ -151,8 +151,8 @@ sudo systemctl enable nginx
 `printenv`
 - Prints the current environment variables.
 
-`MYNAME=martin`
-- Assigns the value "martin" to the environment variable MYNAME.
+`VARNAME=varvalue`
+- Assigns the value "varvalue" to the environment variable VARNAME.
 
 `echo $MYNAME`
 - Prints the value of the MYNAME environment variable.
