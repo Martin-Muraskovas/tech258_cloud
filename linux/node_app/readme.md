@@ -16,13 +16,13 @@ When you get to the security settings. Add a Custom TCP with the port 3000. Port
 `sudo sed -i "s/#\$nrconf{kernelhints} = -1;/\$nrconf{kernelhints} = -1;/g" /etc/needrestart/needrestart.conf`
 
 2. Update packages.<br>
-`sudo apt update -y`
+`sudo DEBIAN_FRONTEND=noninteractive apt update -y`
 
 3. Upgrade packages.<br>
-`sudo apt upgrade -y`
+`sudo DEBIAN_FRONTEND=noninteractive apt upgrade -y`
 
 4. Installing nginx.<br>
-`sudo apt install nginx -y`
+`sudo DEBIAN_FRONTEND=noninteractive apt install nginx -y`
 
 5. Restarting nginx.<br>
 `sudo systemctl restart nginx`
@@ -31,8 +31,8 @@ When you get to the security settings. Add a Custom TCP with the port 3000. Port
 `sudo systemctl enable nginx`
 
 7. Install node version 20.<br>
-`curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\`
-`sudo apt-get install -y nodejs`
+`curl -fsSL https://deb.nodesource.com/setup_20.x | sudo DEBIAN_FRONTEND=noninteractive -E bash - &&\`
+`sudo DEBIAN_FRONTEND=noninteractive apt-get install -y nodejs`
 
 8. Check the node.js version.<br>
 `node -v`
@@ -47,5 +47,14 @@ When you get to the security settings. Add a Custom TCP with the port 3000. Port
 11.  Change into the app folder.<br>
 `cd ~/apps/tech258-sparta-test-app/app`
 
-12.   Ensure that the app is running in the background and can be ran multiple times with no errors.<br>
-`nohup node app.js` or `nohup node app.js &`
+12. Install npm
+`sudo npm install`
+
+13. Install pm2
+`sudo npm install -g pm2`
+
+14. Stop all processes that pm2 is managing
+`sudo pm2 stop all`
+
+15. Start app.js using pm2
+`sudo pm2 start node app.js`
