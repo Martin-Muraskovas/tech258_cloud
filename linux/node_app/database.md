@@ -83,3 +83,14 @@ When you get to the security settings. Add a Custom TCP with the port 27017. Por
 
 13. Start the app<br>
 `npm start`
+
+## Configuring a reverse proxy
+After installing nginx in the previous section. You may want to configure a reverse proxy to improve the user experience.
+
+This can be done by doing the following:
+
+1. Backup the existing nginx configuration file.
+`sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bk`
+
+2. Replace line 51 of the config file to set the reverse proxy as local host.
+`sudo sed -i '51s/.*/\t        proxy_pass http:\/\/localhost:3000;/' /etc/nginx/sites-available/default`
