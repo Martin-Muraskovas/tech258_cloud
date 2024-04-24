@@ -1,5 +1,11 @@
 # AWS EC2 2 tier app deployment using nginx and mongodb
 
+## What is a 2 tier deployment and why is it generally prefered to a monolith architecture?
+A 2-tier deployment architecture consists of two main layers: presentation tier and data tier. It is preferred over monolithic architecture for its simplicity, performance benefits, and scalability advantages. The direct communication between the presentation and data tiers allows for faster data retrieval, simpler design, and easier vertical scalability by adding more resources to each tier.
+<br>
+![alt text](<monlith vs 2tier.jpg>)
+<br>
+
 ## Prerequisites
 Please follow part 1 of this [guide](https://github.com/Martin-Muraskovas/tech258_cloud/blob/main/readme.md).
 
