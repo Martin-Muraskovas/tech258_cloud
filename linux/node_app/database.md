@@ -94,3 +94,9 @@ This can be done by doing the following:
 
 2. Replace line 51 of the config file to set the reverse proxy as local host.
 `sudo sed -i '51s/.*/\t        proxy_pass http:\/\/localhost:3000;/' /etc/nginx/sites-available/default`
+
+### Potential Blockers during the reverse proxy set up.
+During this set up of the reverse proxy, my initial research led to me altering the file on the following path:
+<br>`/etc/nginx/sites-enabled/default`<br>
+This was the incorrect path. Further research shows that the correct file path is:
+<br>`/etc/nginx/sites-available/default`<br>
