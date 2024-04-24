@@ -89,10 +89,10 @@ After installing nginx in the previous section. You may want to configure a reve
 
 This can be done by doing the following:
 
-1. Backup the existing nginx configuration file.
-`sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bk`
+1. Backup the existing nginx configuration file.<br>
+`sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bk`<br>
 
-2. Replace line 51 of the config file to set the reverse proxy as local host.
+2. Replace line 51 of the config file to set the reverse proxy as local host.<br>
 `sudo sed -i '51s/.*/\t        proxy_pass http:\/\/localhost:3000;/' /etc/nginx/sites-available/default`
 
 ### Potential Blockers during the reverse proxy set up.
