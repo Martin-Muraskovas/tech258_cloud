@@ -98,7 +98,7 @@ import boto3
 
 s3 = boto3.client('s3')
 
-bucket_name = 'tech257-martin-test-boto3'
+bucket_name = 'tech258-martin-test-boto3'
 
 s3.create_bucket(Bucket=bucket_name)
 ```
@@ -109,7 +109,7 @@ import boto3
 
 s3 = boto3.client('s3')
 
-bucket_name = 'tech257-martin-test-boto3'
+bucket_name = 'tech258-martin-test-boto3'
 file_path = 'path_to_your_file'
 
 s3.upload_file(file_path, bucket_name, 'file_name_in_bucket')
@@ -121,7 +121,7 @@ import boto3
 
 s3 = boto3.client('s3')
 
-bucket_name = 'tech257-martin-test-boto3'
+bucket_name = 'tech258-martin-test-boto3'
 file_path = 'path_to_save_downloaded_file'
 
 s3.download_file(bucket_name, 'file_name_in_bucket', file_path)
@@ -133,7 +133,7 @@ import boto3
 
 s3 = boto3.client('s3')
 
-bucket_name = 'tech257-martin-test-boto3'
+bucket_name = 'tech258-martin-test-boto3'
 
 s3.delete_object(Bucket=bucket_name, Key='file_name_in_bucket')
 ```
@@ -144,7 +144,7 @@ import boto3
 
 s3 = boto3.resource('s3')
 
-bucket_name = 'tech257-martin-test-boto3'
+bucket_name = 'tech258-martin-test-boto3'
 
 bucket = s3.Bucket(bucket_name)
 for key in bucket.objects.all():
