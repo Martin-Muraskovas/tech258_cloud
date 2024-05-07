@@ -84,7 +84,7 @@ List all buckets:
 ```
 import boto3
 
-s3 = boto3.client('s3')
+s3 = boto3.client('s3', region_name='eu-west-1')
 
 response = s3.list_buckets()
 
@@ -96,7 +96,7 @@ Create an S3 bucket:
 ```
 import boto3
 
-s3 = boto3.client('s3')
+s3 = boto3.client('s3',region_name='eu-west-1')
 
 bucket_name = 'tech258-martin-test-boto3'
 
@@ -107,7 +107,7 @@ Upload data/file to the S3 bucket:
 ```
 import boto3
 
-s3 = boto3.client('s3')
+s3 = boto3.client('s3', region_name='eu-west-1')
 
 bucket_name = 'tech258-martin-test-boto3'
 file_path = 'path_to_your_file'
@@ -119,7 +119,7 @@ Download/retrieve content/file from the S3 bucket:
 ```
 import boto3
 
-s3 = boto3.client('s3')
+s3 = boto3.client('s3', region_name='eu-west-1')
 
 bucket_name = 'tech258-martin-test-boto3'
 file_path = 'path_to_save_downloaded_file'
@@ -131,7 +131,7 @@ Delete content/file from the S3 bucket:
 ```
 import boto3
 
-s3 = boto3.client('s3')
+s3 = boto3.client('s3', region_name='eu-west-1')
 
 bucket_name = 'tech258-martin-test-boto3'
 
